@@ -55,7 +55,7 @@ function Display({ value }: Props) {
   ]
 
   return (
-    <div className="relative h-[116px] w-12 -skew-x-3">
+    <div className="relative h-[116px] w-12 -skew-x-[4deg]">
       {segments.map((segment) => (
         <Segment
           className={segment.className}
