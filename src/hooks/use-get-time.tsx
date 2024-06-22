@@ -5,7 +5,7 @@ function useGetTime() {
 
 	const years = time.getFullYear();
 	const months = time.getMonth();
-	const days = time.getDay();
+	const days = time.getDay() + 1;
 
 	const hours = time.getHours();
 	const minutes = time.getMinutes();
